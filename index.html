@@ -40,8 +40,18 @@
                         <div class="calc__info-subtitle">
                             Введите параметры формы</div>
                     <div class="calc__info-parametrs">
-                        Форма в рецепте: <input type="text"> диаметром <br>
-                        Моя форма: <input type="text"> диаметром
+                        Форма <select class="select1">
+                            <option>Круглая</option>
+                            <option>Прямоугольная</option>
+                            <option>Квадратная</option>
+                          </select>
+                        в рецепте: <input type="text" id="dm"> диаметром  <br>
+                        Моя <select class="select1">
+                            <option>Круглая</option>
+                            <option>Прямоугольная</option>
+                            <option>Квадратная</option>
+                          </select>
+                        форма: <input type="text" id="Mydm"> диаметром
                     </div>
                     <div class="calc__info-button">
                         <button>Рассчитать</button>
@@ -55,5 +65,6 @@
         </div>
     </div>
 
+    <script src="js/script.js"></script>
 </body>
 </html>
